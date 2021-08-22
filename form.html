@@ -1,0 +1,86 @@
+<html>
+    <head>
+        <title>
+            Registration form using BootStrap
+        </title>
+        
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="register.css">
+        
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3"></div>
+                <div class="col-md-6">
+                    <h1>REGISTRATION FORM</h1>
+                
+                    <label class="label col-md-3 control-label">First Name</label>
+                    <div class="col-md-9">
+                        <input type="text" id="Nametag" class="form-control even" name="fname" placeholder="Enter Your First Name" required>
+                    </div>
+
+
+                    <label class="label col-md-3 control-label">Last Name</label>
+                    <div class="col-md-9">
+                        <input type="text" class="form-control even" name="lname" placeholder="Enter Your Last Name">
+                    </div>
+
+
+                    <label class="label col-md-3 control-label">Gender</label>
+                    <div class="col-md-9">
+                        <div class="col-md-3 form-check form-check-inline">
+                            <input type="radio" name="gender" class="form-check-input" id="Male" value="male">
+                            <label for="Male" class="form-check-input">Male</label>
+                        </div>
+    
+                        <div class="col-md-3 form-check form-check-inline">
+                            <input type="radio" name="gender" class="form-check-input" id="Female" value="female">
+                            <label for="Female" class="form-check-input">Female</label>
+                        </div>
+    
+                        <div class="col-md-3 form-check form-check-inline">
+                            <input type="radio" name="gender" class="form-check-input" id="Others" value="others">
+                            <label for="Others" class="form-check-input">Others</label>
+                        </div>
+
+                    </div>
+
+
+
+                    <label class="label col-md-3 control-label">E-Mail</label>
+                    <div class="col-md-9">
+                        <input type="email" class="form-control even" name="email" placeholder="Enter Your E-Mail">
+                    </div>
+
+
+                    <label class="label col-md-3 control-label">Password</label>
+                    <div class="col-md-9">
+                        <input type="password" class="form-control even" name="password" placeholder="Create Your New Password">
+                    </div>
+
+
+
+                    <label class="label col-md-3 control-label">Confirm Password</label>
+                    <div class="col-md-9">
+                        <input type="text" class="form-control even" name="password1" placeholder="Confirm Your New Password">
+                    </div>
+
+                    <a href="#" class="btn btn-info btn-primary">SUBMIT</a>
+                    
+
+
+                    <div class="col-md-3"></div>
+                </div>
+            </div>
+            
+        </div>
+    </body>
+</html>
